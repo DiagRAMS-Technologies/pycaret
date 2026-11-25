@@ -23,7 +23,7 @@ maintainers = [
 authors = [
     { name = "pycaret developers" },
 ]
-requires-python = ">=3.9,<3.13"
+requires-python = ">=3.11,<3.15"
 classifiers = [
   "Intended Audience :: Developers",
   "Intended Audience :: Science/Research",
@@ -34,8 +34,6 @@ classifiers = [
   "Operating System :: Unix",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Topic :: Scientific/Engineering",
@@ -50,7 +48,7 @@ dependencies = [
   "ipywidgets>=7.6.5",
   "tqdm>=4.62.0",
   "numpy>=1.21, <1.27",
-  "pandas<2.2",
+  "pandas<3",
   "jinja2>=3",
   "scipy>=1.6.1,<=1.11.4",  # to fix later (
   "joblib>=1.4.2,<1.5",
