@@ -15,7 +15,7 @@ keywords = [
   "scikit-learn<1.5",
   "time-series",
 ]
-license = { file = "LICENSE" }
+license-files = ["LICENSE"]
 maintainers = [
   { name = "pycaret developers" },
 ]
@@ -27,7 +27,6 @@ requires-python = ">=3.11,<3.15"
 classifiers = [
   "Intended Audience :: Developers",
   "Intended Audience :: Science/Research",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: MacOS",
   "Operating System :: Microsoft :: Windows",
   "Operating System :: POSIX",
